@@ -1,4 +1,4 @@
-// Temprature conversion using classes
+// Temprature conversion to celsius using classes
 
 #include <iostream>
 using namespace std;
