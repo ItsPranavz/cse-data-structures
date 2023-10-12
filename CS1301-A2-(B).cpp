@@ -1,3 +1,5 @@
+// Postfix to infix implementation
+
 #include <iostream>
 #include <stack>
 #include <algorithm>
@@ -35,10 +37,6 @@ string postfixToInfix( string postfix){
 
     }
     return stack.top();
-    
-    
-
-
 }
 int  main(){
    
