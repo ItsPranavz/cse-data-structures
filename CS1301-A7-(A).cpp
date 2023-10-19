@@ -1,3 +1,5 @@
+// Queue implementation of queue
+
 class Node {
     	public :
     	int data;
