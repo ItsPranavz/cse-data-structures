@@ -1,4 +1,4 @@
-// The Implementation of non-circular queues
+// The Implementation of circular queues
 
 #include <iostream>
 #include <cstdlib>

@@ -81,26 +81,26 @@ void printList() {
 int main() {  
 LinkedList List;  
 
-list.insertAtBeginning(3);  
-list.insertAtBeginning(2);  
-list.insertAtBeginning(1);  
+List.insertAtBeginning(3);  
+List.insertAtBeginning(2);  
+List.insertAtBeginning(1);  
 
-list.insertAtEnd(4);  
-list.insertAtEnd(5);  
-list.insertAtEnd(6);  
+List.insertAtEnd(4);  
+List.insertAtEnd(5);  
+List.insertAtEnd(6);  
 
 cout << "Original list: ";  
-list.printList();  
+List.printList();  
 
-list.deleteAtBeginning();  
+List.deleteAtBeginning();  
 
 cout << "List after deleting a node at the beginning: ";  
-list.printList();  
+List.printList();  
 
-list.deleteAtEnd();  
+List.deleteAtEnd();  
 
 cout << "List after deleting a node at the end: ";  
-list.printList();  
+List.printList();  
   
 return 0;  
 }
